@@ -4,6 +4,7 @@ import { Body } from './Comps/Body';
 import { Footer } from './Comps/Footer';
 import { Header } from './Comps/Header';
 import { Logo } from './Comps/Logo';
+import { BottomNav } from './Comps/Nav/BottomNav';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </a>
       </header> */}
       <Logo />
+      <BottomNav />
       <Header />
       <Body />
       <Footer />
