@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import { Body } from './Comps/Body';
+import { Footer } from './Comps/Footer';
+import { Header } from './Comps/Header';
+import { Logo } from './Comps/Logo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +21,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <Logo />
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
