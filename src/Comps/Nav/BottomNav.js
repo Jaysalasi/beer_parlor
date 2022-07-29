@@ -13,7 +13,7 @@ export const BottomNav = () => {
     window.addEventListener('scroll', hideBottomNav)
   return (
     <div className={bottomNav? 'container mx-auto relative hidden' : 'container mx-auto relative'}>
-        <div className=' fixed bottom-0 rounded-full text-center bnbg align-center inset-x-0 bottom-0 mx-80 mb-12'>
+        <div className=' fixed bottom-0 rounded-full text-center bnbg align-center inset-x-0 bottom-0 mx-96 mb-12'>
         <ul className='flex justify-center text-white py-2'>
             <li className='px-4  bg-orange'>Home</li>
             <li className='px-4'>About us</li>
