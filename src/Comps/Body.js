@@ -13,9 +13,9 @@ export const Body = () => {
     // console.log(productsElements)
   return (
     <div className='body-sect'>
-    <div className='container py-24 '>
-        <div className='flex justify-center txt-lg pb-24' >
-            <h1 className='text-black'>Latest &nbsp;</h1>  <h1 className='cl-orange text-orange'>Products</h1>
+    <div className=' py-24 '>
+        <div className='flex justify-center pb-24' >
+            <h1 className='text-black text-4xl font-[700]'>Latest &nbsp;</h1>  <h1 className='bg-orange text-4xl font-[700] text-orange'>Products</h1>
 
         </div>
         
@@ -31,7 +31,7 @@ export const Body = () => {
             <button className='border border-black px-8 font-medium py-2 rounded-lg'>Add to cart</button>
             </div>
         </div> */}
-            <div className='flex justify-around'>
+            <div className='grid sm:grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-4 px-6'>
                 {productsElements}
             </div>
     </div>

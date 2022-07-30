@@ -3,12 +3,12 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div>
-      <div className='head-img text-white'>
-        <div className='container mx-auto pl-24 pt-[45vh] '>
+    <div className='head-img h-full min-h-screen flex flex-col justify-center'>
+      <div className='text-white'>
+        <div className=' lg:pl-12 pl-8 sm:pt-[30vh] lg:pt-[10px] '>
 
-  <h1 className='text-white cta' >Unique Flavors</h1>
-  <p className='text-2xl cta-text' >Brought to your doorstep</p>
+  <h1 className='text-white text-[45px] lg:text-[80px] font-[700]' >Unique Flavors</h1>
+  <p className='text-[20px] lg:text-[40px] ' >Brought to your doorstep</p>
         </div>
 </div>
 

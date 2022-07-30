@@ -54,11 +54,12 @@ code {
 }
 
 .head-img {
-  margin: 0;
+  /* margin: 0; */
   background-image: url(./images/header.png);
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
-  height: 100vh;
+  background-position: center right;
+  /* height: 80vh; */
 }
 
 .cta {
@@ -74,11 +75,9 @@ code {
 
 /* nody */
   .body-sect {
-    margin: 0;
     background-image: url(./images/body-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
   }
 
   .txt-lg {
