@@ -1,29 +1,18 @@
-// import logo from './logo.svg';
-// import './App.css';
-import { Body } from './Comps/Body';
-import { Footer } from './Comps/Footer';
-import { Header } from './Comps/Header';
-import { Logo } from './Comps/Logo';
+import { TopNav } from './Comps/Nav/TopNav';
 import { BottomNav } from './Comps/Nav/BottomNav';
+
+import { Header } from './Comps/Header';
+
+import { Body } from './Comps/Body';
+
+import { Footer } from './Comps/Footer';
+
+
 
 function App() {
   return (
     <div className="">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <Logo />
+      <TopNav />
       <BottomNav />
       <Header />
       <Body />

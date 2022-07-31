@@ -1,5 +1,9 @@
 import React from 'react'
 
+import  twitter  from '../images/tw.png'
+import  facebook  from '../images/fb.png'
+import  instagram  from '../images/in.png'
+
 export const Footer = () => {
   return (
     <div className='bg-black pt-24 pb-12'>
@@ -27,10 +31,14 @@ export const Footer = () => {
         </div>
         <div className='flex justify-center text-white pt-12'>
             <h1 className='text-2xl font-medium uppercase'>Newsletter &nbsp;</h1>
-            <input className='bg-black border border-white rounded-sm' placeholder=' Email' />
+            <input className='bg-black border border-white rounded-md w-80' placeholder=' Email' />
         </div>
-        <div className='text-white text-center pt-12'>
-            <p>Socials</p>
+        <div className='text-white text-center pt-12 '>
+            <ul className='flex justify-center '>
+                <li><img className='w-[50%]' src={ twitter } /></li>
+                <li><img  className='w-[50%]' src={ facebook } /></li>
+                <li><img  className='w-[50%]' src={ instagram } /></li>
+            </ul>
         </div>
     </div>
   )

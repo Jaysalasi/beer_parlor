@@ -15,7 +15,7 @@ export const Body = () => {
     <div className='body-sect'>
     <div className=' py-24 '>
         <div className='flex justify-center pb-24' >
-            <h1 className='text-black text-4xl font-[700]'>Latest &nbsp;</h1>  <h1 className='bg-orange text-4xl font-[700] text-orange'>Products</h1>
+            <h1 className='text-black text-4xl font-[700]'>Latest &nbsp;</h1>  <h1 className='bg-orange text-4xl font-[700] text-[#ff7000]'>Products</h1>
 
         </div>
         
