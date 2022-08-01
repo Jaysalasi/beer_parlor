@@ -1,22 +1,12 @@
-import { TopNav } from './Comps/Nav/TopNav';
-import { BottomNav } from './Comps/Nav/BottomNav';
 
-import { Header } from './Comps/Header';
-
-import { Body } from './Comps/Body';
-
-import { Footer } from './Comps/Footer';
+import { LandingPage } from './Comps/Pages/LandingPage';
 
 
 
 function App() {
   return (
     <div className="">
-      <TopNav />
-      <BottomNav />
-      <Header />
-      <Body />
-      <Footer />
+      <LandingPage  />
     </div>
   );
 }

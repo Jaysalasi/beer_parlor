@@ -1,7 +1,7 @@
 import React from 'react'
-import whiskey from '../images/beer1.png'
+import whiskey from '../../images/beer1.png'
 
-import cart from '../images/cart.png'
+import cart from '../../images/cart.png'
 
 export const ProductsList = (props) => {
   return (

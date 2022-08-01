@@ -24,8 +24,8 @@ export const TopNav = () => {
         
         <div className={nav ? ' text-center align-center inset-x-0 mx-12 mb-2 text-black sm:hidden lg:block md:block': ' text-center align-center inset-x-0 hidden mx-80 mb-2'}>
         <ul className='flex  py-2'>
-            <li className='px-4  bg-orange'><Link to='/' className='active hover:bg-[#ff7000] hover:px-4 hover:py-2 hover:rounded-full transition duration-700 hover:transition hover:duration-700 text-center px-4 py-2'>Home</Link></li>
-            <li className='px-4'><Link to='/' className='active'>About us</Link> </li>
+            <li className='px-4  bg-orange'><Link to='/landingpage' className='active hover:bg-[#ff7000] hover:px-4 hover:py-2 hover:rounded-full transition duration-700 hover:transition hover:duration-700 text-center px-4 py-2'>Home</Link></li>
+            <li className='px-4'><Link to='/about' className='active'>About us</Link> </li>
             <li className='px-4'><Link to='/' className='active'>Store</Link> </li>
             <li className='px-4'><Link to='/' className='active'>Contact</Link> </li>
         </ul>

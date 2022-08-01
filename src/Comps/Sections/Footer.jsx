@@ -1,8 +1,8 @@
 import React from 'react'
 
-import  twitter  from '../images/tw.png'
-import  facebook  from '../images/fb.png'
-import  instagram  from '../images/in.png'
+import  twitter  from '../../images/tw.png'
+import  facebook  from '../../images/fb.png'
+import  instagram  from '../../images/in.png'
 
 export const Footer = () => {
   return (
@@ -35,9 +35,9 @@ export const Footer = () => {
         </div>
         <div className='text-white text-center pt-12 '>
             <ul className='flex justify-center '>
-                <li><img className='w-[50%]' src={ twitter } /></li>
-                <li><img  className='w-[50%]' src={ facebook } /></li>
-                <li><img  className='w-[50%]' src={ instagram } /></li>
+                <li><img className='w-[50%]' src={ twitter } alt='twitter' /></li>
+                <li><img  className='w-[50%]' src={ facebook } alt='facebook' /></li>
+                <li><img  className='w-[50%]' src={ instagram } alt='instagram' /></li>
             </ul>
         </div>
     </div>
